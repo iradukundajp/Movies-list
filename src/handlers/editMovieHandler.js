@@ -9,7 +9,6 @@ const editMovieHandler = async (event) => {
 
         // Prompt the user to enter a new title
         const newTitle = prompt('Enter new movie title:', currentTitle);
-
         // Prompt the user to enter a new source URL, with the current source URL as a placeholder
         const newSrc = prompt('Enter new movie source URL:', currentSrc);
 
@@ -17,6 +16,10 @@ const editMovieHandler = async (event) => {
         if (newTitle !== null && newSrc !== null) {
             // Create an object with the updated movie data
             const updatedData = { title: newTitle, src: newSrc };
+            const movieDom = document.querySelector('.selected');
+            movieDom.querySelector('h2').innerText = updatedData.title;
+            movieDom.querySelector('img').src = updatedData.src;
+            movieDom.querySelector('img').alt = updatedData.title;
 
             // Call the updateMovie function to update the movie on the server
             const updatedMovie = await updateMovie(movieId, updatedData);

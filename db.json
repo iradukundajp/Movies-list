@@ -1,11 +1,6 @@
 {
   "movies": [
     {
-      "title": "CREED 3",
-      "src": "https://artofthemovies.co.uk/cdn/shop/products/IMG_1312-310705.jpg?v=1677660328",
-      "id": 1
-    },
-    {
       "id": 2,
       "title": "PASSENGER",
       "src": "./assets/passenger.jpg"
@@ -16,16 +11,6 @@
       "src": "./assets/space.jpg"
     },
     {
-      "title": "EXTRACTION",
-      "src": "https://www.joblo.com/wp-content/uploads/2023/05/EN-US_EXTR2_Main_Train_Vertical_27x40_RGB_PRE-1-400x600.jpg",
-      "id": 7
-    },
-    {
-      "title": "JOKER",
-      "src": "https://c4.wallpaperflare.com/wallpaper/675/275/718/joker-2019-movie-joker-joaquin-phoenix-actor-men-hd-wallpaper-preview.jpg",
-      "id": 8
-    },
-    {
       "title": "DUNE",
       "src": "https://wallpapercave.com/wp/wp8872700.jpg",
       "id": 9
@@ -34,16 +19,6 @@
       "title": "CAPTAIN AMERICA",
       "src": "https://media.gettyimages.com/id/458467163/photo/the-first-avenger-movie-poster.jpg?s=612x612&w=gi&k=20&c=Fc9E7HSJmEiviWNqmLsoXGgwOdpN8fv3qZ0fem6__rM=",
       "id": 10
-    },
-    {
-      "title": "1917",
-      "src": "https://cdn.cinematerial.com/p/297x/haeorwgk/1917-british-movie-poster-md.jpg?v=1579166770",
-      "id": 11
-    },
-    {
-      "title": "LALA LAND",
-      "src": "https://wallpaper.dog/large/20375710.jpg",
-      "id": 12
     }
   ]
 }
