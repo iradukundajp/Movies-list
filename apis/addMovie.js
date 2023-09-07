@@ -1,5 +1,6 @@
-const baseUrl =
-    'https://my-json-server.typicode.com/iradukundajp/Movies-list/movies';
+import dataUrl from '../src/data.js';
+
+//const baseUrl = 'https://my-json-server.typicode.com/iradukundajp/Movies-list/movies';
 
 const handleResponse = async (response) => {
     if (!response.ok) {
@@ -19,7 +20,7 @@ const addMovie = async (method, data = null) => {
             body = JSON.stringify(data);
         }
 
-        const response = await fetch(baseUrl, {
+        const response = await fetch(dataUrl.baseUrl, {
             method,
             headers,
             body

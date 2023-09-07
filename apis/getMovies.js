@@ -1,8 +1,8 @@
-import data from '../src/data.js';
+import dataUrl from '../src/data.js';
 
 const getMovies = async () => {
     try {
-        const response = await fetch(data.baseUrl);
+        const response = await fetch(dataUrl.baseUrl);
         if (!response.ok) {
             throw new Error(
                 `Failed to fetch movies with status : ${response.status}`
