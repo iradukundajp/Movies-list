@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:5000';
+const baseUrl = 'https://my-json-server.typicode.com/iradukundajp/Movies-list/movies';
 
 const handleResponse = async (response) => {
     if (!response.ok) {

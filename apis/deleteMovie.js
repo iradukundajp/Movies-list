@@ -1,7 +1,7 @@
 const deleteMovie = async (movieId) => {
     try {
         const response = await fetch(
-            `http://localhost:5000/movies/${movieId}`,
+            `https://my-json-server.typicode.com/iradukundajp/Movies-list/movies/${movieId}`,
             {
                 method: 'DELETE',
                 headers: {
