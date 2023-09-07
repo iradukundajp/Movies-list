@@ -1,4 +1,5 @@
-const baseUrl = 'https://my-json-server.typicode.com/samirm00/movies-list/movies';
+const baseUrl =
+    'https://my-json-server.typicode.com/iradukundajp/Movies-list/movies';
 
 const handleResponse = async (response) => {
     if (!response.ok) {
@@ -9,7 +10,6 @@ const handleResponse = async (response) => {
 
 const addMovie = async (method, data = null) => {
     try {
-        
         const headers = {
             'Content-Type': 'application/json'
         };
